@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-03-15 19:21+0900\n"
+"PO-Revision-Date: 2015-03-15 19:21+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: /Users/hiro/dev/conoha-ojs-sync\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: tpl/setting.php:6
+msgid "Setting ConoHa Object Sync"
+msgstr "ConoHa Object Sync設定"
+
+#: tpl/setting.php:8
+msgid ""
+"Type the API informations for the ConoHa Object storage. No account? Let's "
+msgstr ""
+"ConoHaオブジェクトストレージ(もしくはOpenStackシステム)のAPI情報を入力してく"
+"ださい。アカウントをお持ちで無い場合はサインアップしてください。"
+
+#: tpl/setting.php:8
+msgid "https://www.conoha.jp/en/"
+msgstr "https://www.conoha.jp/"
+
+#: tpl/setting.php:8
+msgid "signup"
+msgstr "[サインアップ]"
+
+#: tpl/setting.php:15
+msgid "API Account"
+msgstr "APIアカウント名"
+
+#: tpl/setting.php:25
+msgid "API Password"
+msgstr "APIパスワード"
+
+#: tpl/setting.php:35
+msgid "Tenant ID"
+msgstr "テナントID"
+
+#: tpl/setting.php:45
+msgid "Auth URL"
+msgstr "Auth URL"
+
+#: tpl/setting.php:55
+msgid "Region"
+msgstr "リージョン"
+
+msgid "Service Name"
+msgstr "サービス名"
+
+msgid "The name of OpenStack object-store service. You can find it in KeyStone \"token-get\" response."
+msgstr "OpenStackの\"object-store\"で使われる名前を設定します。この値はKeyStoneのtoken-getの返り値に含まれます。"
+
+msgid "You will use \"Object Storage Service\" for ConoHa. If you use the old ConoHa, try to use "swift"."
+msgstr "ConoHaをお使いの場合は、「Object Storage Service」と入力して下さい。(古いオブジェクトストレージの場合は「swift」の場合もあります)"
+
+#: tpl/setting.php:65
+msgid "Container Name"
+msgstr "コンテナ名"
+
+#: tpl/setting.php:71
+msgid ""
+"Container name that media files is uploaded. If the container not found, It "
+"will create automatically."
+msgstr ""
+"メディアファイルが格納させるコンテナ名を指定します。コンテナが存在しない場合"
+"は自動的に作成されます。"
+
+#: tpl/setting.php:72
+msgid "The plugin will set the ACL to allow public access."
+msgstr "コンテナにはプラグインによって自動的に公開アクセス権が付与されます。"
+
+msgid "File Types"
+msgstr "ファイルタイプ"
+
+msgid "Extensions"
+msgstr "拡張子リスト"
+
+msgid "The media files that has these extensions will be uploaded to the Object Storage. You can use comma separated format to specify more than one(Example: "png,jpg,gif,mov,wmv")."
+msgstr "アップロードする拡張子を指定します。拡張子は半角カンマ区切りで複数指定可能です(例: png,jpg,gif,mov,wmv)。"
+
+msgid "If this field is blank, Everything will be uploaded."
+msgstr "空欄の場合は全てのファイル形式がアップロード対象となります。"
+
+#: tpl/setting.php:78
+msgid "Check the connection"
+msgstr "接続テスト"
+
+#: tpl/setting.php:84
+msgid "Synchronization options"
+msgstr "同期オプション"
+
+#: tpl/setting.php:90
+msgid ""
+"Delete the uploaded file from the local storage after a successful upload to "
+"the object storage."
+msgstr ""
+"オブジェクトストレージへのアップロードが成功した場合、ローカルからファイルを"
+"削除する。"
+
+#: tpl/setting.php:97
+msgid ""
+"Delete the object from the object storage when the library file is deleted."
+msgstr ""
+"ライブラリからメディアが削除されたとき、オブジェクトストレージ上のメディアも"
+"削除する。"
+
+msgid "Resynchronization"
+msgstr "再同期"
+
+msgid "Resynchronization all media files to the Object Storage. It may take a long time."
+msgstr "サーバ上のメディアファイルを全てオブジェクトストレージにアップロードし直します。この実行には時間がかかる場合があります。"
